@@ -3,7 +3,7 @@ $(document).ready(function(){
         var text1 = $("#text1").val();
          let done=$(":button").val();
         $('#displayArea').append("<tr><td>" + text1 + "</td><td>" +
-        '<button class="done">Done</button><button class="undone">Undone</button><button class="delete">Delete</button>' +
+        '<button class="done btn btn-success">Done</button>     <button class="undone btn btn-warning">Undone</button>       <button class="delete btn btn-danger">Delete</button>' +
          "</td><td class='result'></td</tr>")
        // $("input[type=text], textarea").val("");
     });
